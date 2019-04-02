@@ -1,4 +1,4 @@
-package com.example.edulution;
+package com.example.edulution.ui;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,10 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Transaction extends Fragment {
+import com.example.edulution.R;
+
+public class SettingsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.transaction, container, false);
+        return inflater.inflate(R.layout.fragment_settings, container, false);
     }
 }

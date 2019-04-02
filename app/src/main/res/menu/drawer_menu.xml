@@ -18,7 +18,7 @@
 
     </group>
 
-    <!--<item android:title="Settings">-->
+    <!--<item android:title="SettingsFragment">-->
 
     <item android:title="">
         <menu>
@@ -29,3 +29,4 @@
     </item>
 
 </menu>
+
