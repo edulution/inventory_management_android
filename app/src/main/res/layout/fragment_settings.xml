@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="36sp"
-        android:text="Settings"
+        android:text="Settings Page"
         android:layout_centerInParent="true"
         />
 
