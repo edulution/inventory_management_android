@@ -3,12 +3,12 @@
 
     android:layout_width="match_parent"
     android:layout_height="176dp"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/colorPrimary"
     android:gravity="bottom"
     android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
-        android:text="Joshua Chipile"
+        tools:text="Joshua Chipile"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
 
         />
@@ -28,7 +28,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Admin"
+        tools:text="Admin"
         />
 
 </LinearLayout>

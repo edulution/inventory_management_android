@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_layout_margin">32dp</dimen>
+    <dimen name="fab_customsize">64dp</dimen>
+    <dimen name="toolbar_elevation">8dp</dimen>
+</resources>
